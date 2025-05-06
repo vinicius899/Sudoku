@@ -2,6 +2,7 @@ package edu.vinicius.sudoku.model;
 
 public abstract class Celula {
     protected int numero;
+
     private int x;
     private int y;
 
@@ -13,6 +14,10 @@ public abstract class Celula {
 
     public int getNumero() {
         return numero;
+    }
+
+    public void setNumero(int numero) {
+        this.numero = numero;
     }
 
     public int getX() {
